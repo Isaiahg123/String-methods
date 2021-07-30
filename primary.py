@@ -12,12 +12,47 @@
 #   d. Print the variable capitalized (Look to documentation.)
 
 
+
+my_name='isaiah'
+
+#so what this does is it puts your name in the middle of 30 characters
+print(my_name.center(30))
+
+#this puts your name string in ALL caps
+print(my_name.upper( ))
+
+#this puts your name string in all lowercase
+print(my_name.lower( ))
+
+#this capitalizes the FIRST LETTER of the name string
+print(my_name.capitalize( ))
+
+
+
 # 2 | String Methods
 #
 # 1 - Prompt input from the user, asking them to enter a sentence. Save it to a variable named text.
 #   a. Find the first instance of the letter a. Print that position.
-#   b. Find the first instance of the letter b. Print that position.
-#   c. Find the first instance of a word of your choice. Print that position.
+#you don't have to do b and c
+
+#set it equal to input from the user. the prompt should simply be "enter a sentence"
+text=input('enter a sentece')
+
+#now, we have to specify what exactly we're finding! for positionA, we are looking for the letter a, so put "a" in the parentheses! make sure it's in quotations
+positionA=text.find('a')
+positionE=text.find('e')
+positionI=text.find('i')
+positionO=text.find('o')
+positionU=text.find('u')
+
+#now, we'll simply print out the positions
+#simply print out each of the variables individually with a message specifying what it means!
+#positionA should be outside of quotation marks! you can put something like  "first appearance of letter a:" in the quotations
+
+#example: print("first appearance of a", positionA)
+print(positionA)
+ 
+
 
 
 # 3 | String Methods
